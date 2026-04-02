@@ -1,0 +1,89 @@
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+*{
+    margin: 0;
+}
+nav>div:nth-child(1)>input{
+padding: 5px 80px;
+background-color: gray;
+border-radius: 20px;
+
+}
+nav>div:nth-child(2)>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+::placeholder{
+    color: white;
+}
+.fa-solid {
+    position: absolute;
+    top: 32px;
+    left: 310px;
+}
+main{
+    height:300px ;
+    width: 100%;
+    background-color: black;
+    position: relative;
+   background-repeat: no-repeat;
+   /* background-size:contain; */
+   background-size: 1550px 500px;
+   background-attachment: fixed;
+   background-image: url("https://www.droid-life.com/wp-content/uploads/2020/11/New-Google-Pay-Logo-980x630.png");
+}
+main>p:nth-child(1)
+{
+color: white;
+position: absolute;    
+top: 50px;
+left: 300px;
+}
+main>p:nth-child(2){
+color: white;
+position: absolute;
+top: 80px;
+left: 300px;
+}
+/* main>div:nth-child(3)>i{
+position: absolute;
+top: 50px;
+left: 10px;
+} */
+ .fa-right-from-bracket{
+    position: absolute;
+    top: 83px;
+    left: 440px;
+    
+ }
+main>div:nth-child(4)>img{
+position: absolute;
+top: 25px;
+right: 200px;
+border-radius: 50%;
+/* animation: rotate 5s linear infinite; */
+border-top: 15px solid white;
+animation: rotate 5s linear infinite;
+
+}
+@keyframes rotate{
+    /* from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    } */
+    100%{
+                transform: rotate(360deg);
+            }
+}

@@ -1,0 +1,20 @@
+p::first-letter{
+    color: blue;
+    font-size: 100px;
+}
+p::first-line{
+    color: brown;
+}
+p::after{
+    content: "😊😊😁";
+}
+p::before{
+    content: "👌😒";
+}
+p::selection{
+    background-color: black;
+    color: blue;
+}
+li::marker{
+    color: orange;
+}

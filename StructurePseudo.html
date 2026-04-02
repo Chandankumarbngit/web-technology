@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>div:last-child{
+            color: red;
+        }
+        body>div:first-child{
+            color: green;
+        }
+        body>div:nth-child(4){
+            color: blue;
+        }
+        body>div:nth-child(2)>button{
+            color: white;
+            background-color: black;
+        }
+        body>div:nth-child(3)>p:nth-child(3){
+            color: red;
+        }
+        body>div:nth-child(3)>p:nth-child(2){
+            color:yellow;
+        }
+        body>div:nth-child(7)>button:first-child{
+            color: white;
+            background-color: black;
+            border: 5px solid red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>items1</div>
+    <div>
+        <button>submit</button>
+         
+    </div>
+    <div>
+        <h1>google</h1>
+        <p>chocking</p>
+        <p>chandan</p>
+            
+    </div>
+    <div>items4</div>
+    <div>items5</div>
+
+    <div>items1</div>
+    <div>
+        <button>
+            submit
+        </button>
+        <p>yogesh</p>
+    </div>
+    <div>items3</div>
+    <div>items4</div>
+    <div>items5</div>
+</body>
+</html>

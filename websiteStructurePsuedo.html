@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body>div{
+            width: 100%;
+            height: 100px;
+            background-color: burlywood;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        body>div:first-child>div:nth-child(1){
+            width: 100px;
+            height: 100px;
+            
+        }
+        body>div:first-child>div:nth-child(1)>img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        body>div:first-child>div:nth-child(2){
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div><img src="https://cdn2.hubspot.net/hubfs/53/image8-2.jpg" alt="Google" height="50px" width="50px"></div>
+        <div><div>
+            <p>product</p>
+            <p>cart</p>
+            <p>services</p>
+        </div></div>
+        <div>items3</div>
+        <div>items4</div>
+        <div>items5</div>
+    </div>
+</body>
+</html>

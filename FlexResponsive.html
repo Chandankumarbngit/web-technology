@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        section{
+            display: flex;
+           height: 50vh;
+           width: 100vw;
+           background-color: aqua;
+           justify-content: space-around;
+              align-items: center;
+        }
+        section>div:nth-child(1){
+            height: 50vh;
+            width: 80vw;
+            display: flex;
+            background-color: red;
+            justify-content: space-around;
+            align-items: center;
+           }
+              section>div>div:nth-child(2)>p{
+                
+                width: 80vw;
+               
+              }
+        @media screen and (0px<=width<=468px){
+            section>div:nth-child(1){
+
+                flex-direction: column;
+        }
+          section>div>div:nth-child(2)>p{
+                
+                width: 90%;
+                color: brown;
+                text-align: justify;
+               
+              }
+        }
+    </Style>
+</head>
+<body>
+    <section>
+        <div>
+            <div>
+                <img src="https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/k7qe0iiahvgl3txbcfji" alt="" height="100vh" width="100vw">
+            </div>
+<div>
+    <p>This is a simple paragraph.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea inventore quae a, excepturi dignissimos quis distinctio velit nostrum commodi itaque perferendis eligendi totam ratione sint quia corporis minus pariatur provident?
+    </p>
+</div>
+      </div>
+           
+      
+
+    </section>
+</body>
+</html>

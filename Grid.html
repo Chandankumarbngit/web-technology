@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: 5px solid black underline;
+            text-shadow: 3px 3px gray;
+
+        }
+        body{
+            background-color: aqua;
+            
+        }
+        body>div:nth-child(3){
+            height: 600px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            grid-template-rows: 50px 50px;
+            row-gap: 5px;
+            grid-template-areas: "hdr1 hdr1 hdr1"
+            "hdr2 hdr2 hdr2"
+            "sct sct asd"
+            "sct1 sct2 sct3"
+            "sct4 art art"
+            "ftr ftr ftr";
+        }
+        body>div:nth-child(3)>div{
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            
+        }
+        body>div:nth-child(3)>div:nth-child(1){
+            background-color: white;
+            grid-area: hdr1;
+
+        } body>div:nth-child(3)>div:nth-child(2){
+            background-color: white;
+            grid-area: hdr2;
+
+        }
+         body>div:nth-child(3)>div:nth-child(3){
+            background-color: white;
+            grid-area: sct;
+
+        }
+         body>div:nth-child(3)>div:nth-child(4){
+            background-color: white;
+            grid-area: asd;
+
+
+        }
+         body>div:nth-child(3)>div:nth-child(5){
+            background-color: white;
+            grid-area: sct1;
+
+        }
+         body>div:nth-child(3)>div:nth-child(6){
+            background-color: white;
+            grid-area: sct2;
+
+        }
+         body>div:nth-child(3)>div:nth-child(7){
+            background-color: white;
+            grid-area: sct3;
+
+        }
+         body>div:nth-child(3)>div:nth-child(8){
+            background-color: white;
+            grid-area: sct4;
+
+        }
+         body>div:nth-child(3)>div:nth-child(9){
+            background-color: white;
+            grid-area: art;
+
+        }
+         body>div:nth-child(3)>div:nth-child(10){
+            background-color: white;
+            grid-area: ftr;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Grid in Css</h1>
+    <hr>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+</html>

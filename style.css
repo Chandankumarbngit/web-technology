@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+hr{
+    height: 10px;
+    background-color: black;
+
+}
+/*Desendent Selectors*/
+/*div h2{
+    background-color: aqua;
+}*/
+
+/*child selectors
+section>h4{
+    background-color: brown;
+}
+Adjecnt selectoion
+div+h2{
+    background-color: blue;
+}
+    general sibling selection*/
+    div~h6{
+        background-color: chartreuses;
+    }
